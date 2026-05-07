@@ -2,7 +2,7 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>64.0</apiVersion>
     <formulas>
-        <name>fml_DueDate</name>
+        <name>FollowUpDueDate</name>
         <dataType>Date</dataType>
         <expression>{!$Flow.CurrentDate} + 5</expression>
     </formulas>
@@ -28,26 +28,20 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordCreates>
-        <name>Create_FollowUp_Task</name>
-        <label>Create FollowUp Task</label>
+        <name>Create_Follow_Up_Task</name>
+        <label>Create Follow Up Task</label>
         <locationX>176</locationX>
-        <locationY>288</locationY>
+        <locationY>252</locationY>
         <inputAssignments>
             <field>ActivityDate</field>
             <value>
-                <elementReference>fml_DueDate</elementReference>
+                <elementReference>FollowUpDueDate</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
             <field>OwnerId</field>
             <value>
                 <elementReference>$Record.OwnerId</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Priority</field>
-            <value>
-                <stringValue>Normal</stringValue>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -74,7 +68,7 @@
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Create_FollowUp_Task</targetReference>
+            <targetReference>Create_Follow_Up_Task</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>

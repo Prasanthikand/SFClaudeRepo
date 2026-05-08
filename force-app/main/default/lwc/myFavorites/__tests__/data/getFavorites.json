@@ -1,0 +1,20 @@
+[
+    {
+        "Id": "a01xx000000001AAAQ",
+        "Name": "First Favorite Property",
+        "City__c": "Austin",
+        "Beds__c": "3",
+        "Baths__c": "2",
+        "Price__c": "350000",
+        "Thumbnail__c": "property1.jpg"
+    },
+    {
+        "Id": "a01xx000000002AAAQ",
+        "Name": "Second Favorite Property",
+        "City__c": "Dallas",
+        "Beds__c": "4",
+        "Baths__c": "3",
+        "Price__c": "450000",
+        "Thumbnail__c": "property2.jpg"
+    }
+]

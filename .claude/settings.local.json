@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Salesforce__get_username",
+      "mcp__Salesforce__run_soql_query",
+      "Bash(gh repo *)",
+      "Bash(npx sfdx-lwc-jest *)",
+      "Bash(node node_modules/@salesforce/sfdx-lwc-jest/bin/sfdx-lwc-jest.js --testPathPattern=\"propertyTile|favoriteButton|myFavorites\")",
+      "Bash(node node_modules/.bin/jest --testPathPattern=\"propertyTile|favoriteButton|myFavorites\")",
+      "Bash(Start-Sleep -Seconds 30)",
+      "Bash(Get-Content \"C:\\\\Users\\\\2094003\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-2094003-ClaudeSalesforceProject-dreamhouse-lwc\\\\59b014f4-b2f0-4274-828c-d4fd5b9ef22e\\\\tasks\\\\b9zfwa023.output\")",
+      "Bash(Select-Object -Last 30)",
+      "Bash(gh pr create --repo Prasanthikand/SFClaudeRepo --title '[SCRUM-6] Favoriting Properties' --head feature/SCRUM-6-favoriting-properties --base main --body ' *)",
+      "Bash(findstr sfclaude *)",
+      "Bash(gh pr *)"
+    ]
+  }
+}

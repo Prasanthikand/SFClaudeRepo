@@ -24,3 +24,10 @@
     /* @sldsValidatorIgnore */
     text-overflow: ellipsis;
 }
+
+.favorite-btn-container {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 1;
+}

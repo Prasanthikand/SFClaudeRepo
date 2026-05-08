@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>FavoriteController</members>
+        <members>FavoriteControllerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Account.Banking_Name__c</members>
+        <members>Favorite__c.Property__c</members>
+        <members>Favorite__c.User__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Favorite__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>My_Favorites</members>
+        <members>Property_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>favoriteButton</members>
+        <members>myFavorites</members>
+        <members>propertyTile</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>dreamhouse</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>64.0</version>
+</Package>

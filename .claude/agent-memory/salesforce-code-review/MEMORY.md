@@ -1,0 +1,2 @@
+- [Batch Infrastructure - DeleteStaleTasksBatch](project_batch_infrastructure.md) — Architectural decisions for the stale Task cleanup batch/scheduler (added 2026-05-03)
+- [Flow - Lead Website Follow-Up RTF (US-001)](project_flow_lead_website_followup.md) — Review notes and approved patterns for Lead_WebsiteFollowUp_RTF (added 2026-05-07)

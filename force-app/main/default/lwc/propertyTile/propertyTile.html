@@ -1,6 +1,17 @@
 <template>
     <a onclick={handlePropertySelected} title={property.Name}>
         <div class="tile" style={backgroundImageStyle}>
+            <div class="favorite-btn-container">
+                <lightning-button-icon
+                    icon-name={heartIconName}
+                    alternative-text={favoriteButtonLabel}
+                    variant="bare"
+                    class="favorite-btn"
+                    data-id="favorite-btn"
+                    onclick={handleFavoriteToggle}
+                >
+                </lightning-button-icon>
+            </div>
             <div
                 class="lower-third slds-var-p-horizontal_x-small slds-var-p-vertical_xx-small slds-text-color_inverse"
             >
